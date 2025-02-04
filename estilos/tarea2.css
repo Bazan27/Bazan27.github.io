@@ -1,0 +1,133 @@
+/* Estilos generales */
+body {
+    background-color: #000;  /* Fondo negro */
+    color: white;  /* Letras blancas */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor principal */
+.contenedor {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+.cabeza{
+    background-image: url(../img/fondo-azul.jpg);
+}
+/* Navegación */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #111;  /* Negro ligeramente más claro */
+    border-bottom: 2px solid #333;
+}
+
+/* Logo */
+.logo img {
+    border-radius: 50%;
+}
+
+/* Menú */
+.menu ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+}
+
+.menu li {
+    display: inline;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Colores en hover */
+.menu a:hover {
+    background-color: #007AFF;  
+    color: #fff;
+}
+
+/* Redes sociales */
+.redes img {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    filter: brightness(0) invert(1);  /* Hace las imágenes blancas */
+}
+
+/* Encabezado */
+.cabeza h1 {
+    text-align: center;
+    font-size: 3rem;
+    color: #00FFEA;  /* Azul cian futurista */
+}
+
+/* Main */
+.mains {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.uno {
+    width: 60%;
+    padding: 20px;
+}
+
+.dos img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+/* Sección de información */
+section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+section aside {
+    width: 30%;
+    background: #111;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+}
+
+section aside p {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+section aside li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Pie de página */
+.pie {
+    text-align: center;
+    padding: 15px;
+    background-color: #111;
+    margin-top: 50px;
+}
+
+.pie p {
+    font-size: 16px;
+    color: #777;
+}
