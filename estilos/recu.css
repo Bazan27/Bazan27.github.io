@@ -1,0 +1,307 @@
+/* Estilos generales */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8; /* Color de fondo general */
+    color: #333; /* Color de texto general */
+}
+
+.contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.consulta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    max-width: 500px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.consulta input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    flex-grow: 1;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.consulta button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.consulta button:hover {
+    background-color: #0056b3;
+}
+/* Estilos de la navegación */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.iniyreg{
+    background: #0056b3;
+}
+.logo img {
+    border-radius: 50%;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu li {
+    margin-left: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+
+
+/* Estilos del encabezado */
+.cabeza {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.cabeza h1 {
+    font-size: 3em;
+    color: #007bff;
+}
+
+/* Estilos del contenido principal */
+.mains {
+    display: flex;
+    margin-top: 20px;
+    background: linear-gradient(to right, rgb(185, 181, 201), rgba(141, 119, 148, 0));
+    margin: 100px 100px ;
+}
+
+.uno {
+    flex: 1;
+    padding: 20px;
+}
+
+.import {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: brown;
+}
+
+.info {
+    text-align: justify;
+    color: darkgreen;
+}
+
+.dos {
+    flex: 1;
+    text-align: center;
+}
+
+.img1 {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos de la sección de servicios */
+.seccion-servicios {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.seccion-servicios aside {
+    flex: 1;
+    padding: 20px;
+}
+
+.seccion-servicios p {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.seccion-servicios ul {
+    list-style: none;
+    padding: 0;
+}
+
+.seccion-servicios li {
+    margin-bottom: 10px;
+}
+
+/* Estilos de la sección de contacto */
+.seccion-contacto {
+    display: flex;
+    margin-top: 20px;
+}
+
+.tres {
+    flex: 1;
+    text-align: center;
+}
+
+.img2 {
+    max-width: 100%;
+    height: auto;
+}
+
+.cuatro {
+    flex: 1;
+    padding: 20px;
+}
+
+.cuatro h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.cuatro p {
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.cuatro h3 {
+    font-style: italic;
+}
+section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+section aside {
+    width: 30%;
+    background: linear-gradient(to right, rgb(70, 185, 238), rgba(210, 120, 238, 0));
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+}
+section img {
+    border-radius: 50%;
+    display: flexbox;
+}
+section aside p {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+section aside li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.contacto {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.contacto form {
+    width: 50%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contacto label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contacto input[type="text"],
+.contacto input[type="email"],
+.contacto textarea {
+    width: calc(100% - 12px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.contacto textarea {
+    height: 120px;
+}
+
+.contacto input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.contacto input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+section aside {
+    width: 30%;
+    background: linear-gradient(to right, rgb(70, 185, 238), rgba(210, 120, 238, 0));
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+    display: flex; /* Habilitamos Flexbox para el aside */
+    flex-direction: column; /* Alineamos los elementos en columna */
+    align-items: center; /* Centramos horizontalmente */
+    justify-content: center; /* Centramos verticalmente */
+}
+
+section img {
+    border-radius: 50%;
+    margin-bottom: 10px; /* Espacio entre la imagen y el texto */
+}
+
+section aside p {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+section aside li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+section aside fuera{
+    background-color: #f8f8f8;
+}
+/* Estilos del pie de página */
+.pie {
+    text-align: center;
+    margin-top: 20px;
+    background-color: #3071c7;
+    color: #fff;
+    padding: 10px;
+}
